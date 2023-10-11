@@ -1,0 +1,185 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centralizar{
+background-color: aliceblue;
+    text-align: center;
+}
+
+.cor{
+
+    color: black;
+    height: 30px;
+}
+/*Header*/
+.border {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px; /* Raio de borda arredondada */
+    padding: 20px; /* Espaçamento interno para afastar o texto das bordas */
+    background: white;
+    color: black;
+    
+  
+}
+
+.border  {
+    margin: 0; /* Remove a margem padrão do parágrafo */
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+
+.centro{
+    height:30px;
+    background:#AC2B44;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+   color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.centro {
+    list-style: none;
+    text-align: center; /* Centraliza o texto dentro da lista */
+    padding: 20px;
+}
+/*Header*/
+
+
+/*imagens main*/
+.imagens{
+  width: 500px;
+  height: 520px;
+  border-radius: 50px; /* Define o border-radius para arredondar o elemento */
+  background-color: white; /* Cor de fundo para que o border-radius seja visível */
+  text-align: center; /* Centraliza o conteúdo de texto */
+  display: inline-block; /* Exibe os contêineres em linha */
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  overflow: hidden;
+}
+
+.imagens img{
+    margin: 20px;
+    width: 450px;
+    max-height: 350px;
+    border-radius: 30px; 
+}
+
+.imagens h3{
+    text-align: left;
+    margin-left: 22px;
+}
+
+.imagens h4{
+    text-align: left;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*imagens */
+
+/*Pesquisa*/
+.buscar {
+    width:1800px;
+    background-color: #f2f2f2;
+    border-radius: 20px; /* Raio de borda arredondada */
+    padding: 20px; /* Espaçamento interno para afastar o texto das bordas */
+    background: white;
+    color: black;    
+    margin-top: 50px;
+}
+
+.bnt{
+    font-size: 16px;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px; /* Raio de borda arredondada */
+    padding: 10px;
+    background: #AC2B44;
+    color: white;
+
+}
+/*Pesquisa*/
+
+
+/*carrossel*/
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-slide {
+    width: 100%;
+    display: none;
+  }
+  
+  .carousel-slide img {
+    width: 1800px;
+    height: 350px;
+    margin-top: 50px;
+  }
+  /*carrossel*/
+  /*main*/
+
+  /*login*/
+  .login{
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 30%; /* Adiciona margens automáticas horizontalmente para centralizar */
+    text-align: center; /* Centraliza o conteúdo de texto */
+    border-radius: 15px;
+    margin-top: 10%;
+}
+
+input {
+    width: 100% ;
+    padding: 10px 0;
+    margin-bottom: 15px ;
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+}
+.voltar{
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 6px;
+}
+.vertical-line {
+    border-left: 1px solid black; /* Adapte a cor e espessura conforme necessário */
+    height: 500px; /* Altura da linha vertical */
+    margin: 0 950px; /* Espaçamento ao redor da linha vertical */
+    margin-top: -450px;
+}
+.Cadastro{
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    height: 380px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 30%; /* Adiciona margens automáticas horizontalmente para centralizar */
+    text-align: center; /* Centraliza o conteúdo de texto */
+    border-radius: 15px;
+    margin: 0 1000px;
+    margin-top: -290px;
+}
+
+/*login*/
+
